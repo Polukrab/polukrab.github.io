@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "title": "Кот полосатый",
+      "img": {"x1": "img/item-1-4@1x.jpg", "x2": "img/item-1-4@2x.jpg"},
+      "color": "Коричневый",
+      "age": 6,
+      "paws": 4,
+      "price": 30000,
+      "discount": "-40%",
+      "count": 1
+    },
+    {
+      "id": 1,
+      "title": "Кот полосатый",
+      "img": {"x1": "img/item-2-6@1x.jpg", "x2": "img/item-2-6@2x.jpg"},
+      "color": "Коричневый",
+      "age": 2,
+      "paws": 4,
+      "price": 40000,
+      "discount": "",
+      "count": 0
+    },
+    {
+      "id": 2,
+      "title": "Кот полосатый",
+      "img": {"x1": "img/item-3-5@1x.jpg", "x2": "img/item-3-5@2x.jpg"},
+      "color": "Коричневый",
+      "age": 3,
+      "paws": 4,
+      "price": 20000,
+      "discount": "",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "title": "Кот полосатый",
+      "img": {"x1": "img/item-1-4@1x.jpg", "x2": "img/item-1-4@2x.jpg"},
+      "color": "Коричневый",
+      "age": 2,
+      "paws": 4,
+      "price": 25000,
+      "discount": "",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "title": "Кот полосатый",
+      "img": {"x1": "img/item-3-5@1x.jpg", "x2": "img/item-3-5@2x.jpg"},
+      "color": "Коричневый",
+      "age": 7,
+      "paws": 4,
+      "price": 30000,
+      "discount": "-40%",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "title": "Кот полосатый",
+      "img": {"x1": "img/item-2-6@1x.jpg", "x2": "img/item-2-6@2x.jpg"},
+      "color": "Коричневый",
+      "age": 5,
+      "paws": 4,
+      "price": 10000,
+      "discount": "",
+      "count": 0
+    }
+  ]
+}
