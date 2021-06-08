@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <title>Title</title>
+  <title>Alef Development</title>
   <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
@@ -104,7 +104,7 @@
           {{(card.price.toString()).replace(/\B(?=(\d{3})+(?!\d))/g, " ")}} руб.
         </div>
         <button type="button" class="card__buy" :class="{'card__buy--sold': !card.count}">
-          {{card.count ? `Купить` : `Продан`}}
+          {{card.count ? 'Купить' : 'Продан'}}
         </button>
       </article>
     </div>
@@ -125,10 +125,10 @@
       </div>
       <form class="footer__form form" name="subscription">
         <label class="form__label">
-          <input type="email" name="email" class="form__input" placeholder="Email">
+          <input type="email" name="email" class="form__input" placeholder="Email" required="">
           <span class="form__notice">Введите e-mail без ошибок</span>
         </label>
-        <button class="form__submit js-submit-btn" type="submit">Подписаться</button>
+        <button class="form__submit js-submit-btn" type="submit" formnovalidate="">Подписаться</button>
         <div>
           <input type="checkbox" name="news" value="true" class="visually-hidden" id="subscribe">
           <label for="subscribe" class="form__checkbox">
